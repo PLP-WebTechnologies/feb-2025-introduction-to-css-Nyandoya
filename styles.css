@@ -1,0 +1,38 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling using an ID */
+#header {
+    color: cyan;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* Paragraph styling using a class */
+.text-content {
+    font-size: 18px;
+    color: #11852c;
+    margin: 20px;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+}
+
+/* Styling an image */
+img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 3px solid green
+}
